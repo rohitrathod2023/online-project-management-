@@ -1,0 +1,22 @@
+.graph-report-page {
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+
+.graph-container {
+  height: 350px;
+  width: 600px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgb(227, 236, 242) 0px 10px 15px -3px,
+    rgb(227, 236, 242) 0px 4px 6px -2px;
+}
+
+.graph-titled {
+  font-size: 22px;
+  font-weight: 400;
+}
