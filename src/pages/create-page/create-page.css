@@ -1,0 +1,91 @@
+.create-page {
+  background-color: #f3f5f7;
+}
+
+.create-page-container {
+  position: relative;
+  height: 700px;
+  width: 90%;
+  top: -580px;
+  left: 110px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: rgb(227, 236, 242) 0px 10px 15px -3px,
+    rgb(227, 236, 242) 0px 4px 6px -2px;
+}
+.form-navbar-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-main-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  column-gap: 10px;
+}
+.form-navbar-section {
+  position: relative;
+  padding-top: 30px;
+}
+.project-theme-input {
+  position: relative;
+  margin-left: 20px;
+}
+.project-theme-input-text {
+  height: 70px;
+  width: 750px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 6px;
+  border-color: #d3d3d3;
+}
+
+.save-btn {
+  position: relative;
+  margin-right: 20px;
+}
+.custom-save-btn {
+  background-color: #035fb2;
+  color: #ffffff;
+  width: 150px;
+  padding: 5px 0px;
+  border-radius: 18px;
+  border: none;
+}
+
+.form-main-section {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.create-form-label-text {
+  font-weight: lighter;
+}
+.custom-select {
+  width: 330px;
+  height: 50px;
+  color: #4b4b4b;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.status-text-section {
+  position: absolute;
+  margin-left: 930px;
+  margin-top: 20px;
+}
+
+.status-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(156, 164, 171);
+}
+.status-value-text {
+  font-size: 18px;
+  font-weight: 400;
+}

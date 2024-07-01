@@ -1,0 +1,20 @@
+.list-main-container {
+  position: relative;
+  height: 570px;
+  width: 90%;
+  top: 0px;
+  left: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: rgb(227, 236, 242) 0px 10px 15px -3px,
+    rgb(227, 236, 242) 0px 4px 6px -2px;
+}
+
+.list-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+.list-sortby {
+  display: flex;
+  justify-content: start;
+}

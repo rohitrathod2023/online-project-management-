@@ -1,8 +1,15 @@
+.navbar-page {
+  /* position: fixed; */
+  background: url("../../assets/icons/Header-bg.svg") no-repeat;
+  background-position: 77px 0px;
+  background-size: 100%;
+}
 .vertical-navbar {
-  position: fixed;
+  /* position: fixed;  */
   left: 0;
   height: 100vh;
   width: 5%;
+  height: 100vh;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -23,4 +30,22 @@
   position: absolute;
   bottom: 20px;
   cursor: pointer;
+}
+.horizoantal-navbar-container {
+  position: absolute;
+  display: flex;
+}
+.page-headline {
+  position: relative;
+  top: 60px;
+  left: 150px;
+}
+.page-headline-text {
+  color: #ffffff;
+  font-size: 24px;
+}
+.navbar-logo-icon {
+  position: relative;
+  top: 30px;
+  left: 650px;
 }
